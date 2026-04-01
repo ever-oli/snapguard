@@ -8,20 +8,22 @@ Official CLI package for keeping opencode/Cursor snapshot growth under control.
 uv tool install --force /Users/ever/Documents/GitHub/snapguard
 ```
 
-## Install via Homebrew (planned)
+## Install via Homebrew
 
 ```bash
-brew tap ever-oli/tap
-brew install snapguard
+brew tap ever-oli/homebrew-tap
+brew install ever-oli/homebrew-tap/snapguard
 ```
 
-## Install via PyPI (planned)
+## Install via PyPI
 
 ```bash
 uv tool install snapguard
 # or
 pipx install snapguard
 ```
+
+Note: PyPI publishing is wired via GitHub Actions on `v*` tags. First-time setup requires creating the `snapguard` project on PyPI and adding a Trusted Publisher for repo `ever-oli/snapguard`, workflow `.github/workflows/publish-pypi.yml`, environment `pypi`.
 
 ## Commands
 
