@@ -1,0 +1,18 @@
+[project]
+name = "snapguard"
+version = "0.1.0"
+description = "Interactive snapshot/cache guard for opencode and Cursor"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Ever" }
+]
+dependencies = []
+
+[project.scripts]
+snapguard = "snapguard.cli:main"
+sg = "snapguard.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.24.2"]
+build-backend = "hatchling.build"
