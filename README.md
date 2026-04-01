@@ -8,6 +8,21 @@ Official CLI package for keeping opencode/Cursor snapshot growth under control.
 uv tool install --force /Users/ever/Documents/GitHub/snapguard
 ```
 
+## Install via Homebrew (planned)
+
+```bash
+brew tap ever-oli/tap
+brew install snapguard
+```
+
+## Install via PyPI (planned)
+
+```bash
+uv tool install snapguard
+# or
+pipx install snapguard
+```
+
 ## Commands
 
 ```bash
